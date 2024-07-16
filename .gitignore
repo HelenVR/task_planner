@@ -1,0 +1,17 @@
+*~
+*.deb
+__pycache__
+/build
+/tmp
+.cache
+.pytest_cache
+/dist
+/venv
+**.egg-info/
+/pyvenv.cfg
+/lib/
+/bin/
+/.venv/
+.venv
+.idea
+/db.sqlite3

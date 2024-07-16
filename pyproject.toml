@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "djangoproject"
+version = "0.1.0"
+description = ""
+authors = ["e.vrublevskaya <e.vrublevskaya@visionlabs.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.7"
+loguru = "^0.7.2"
+django-crispy-forms = "^2.2"
+apscheduler = "^3.10.4"
+django-apscheduler = "^0.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
